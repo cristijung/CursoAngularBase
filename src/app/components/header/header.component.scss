@@ -1,0 +1,24 @@
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.menu-icon {
+  background-color: var(--fundo-header);
+  border: 0px;
+  color: var(--texto-principal);
+  cursor: pointer;
+}
+
+.menu {
+  background-color: var(--fundo-header);
+  color: var(--texto-principal);
+  margin-right: 5px;
+}
+
+.header {
+  background-image: url(../../../assets/dracul-header.png);
+  background-size: cover;
+  height: 333px;
+  text-align: end;
+}

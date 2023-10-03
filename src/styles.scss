@@ -1,4 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+//esquema de cores
+:root {
+  --fundo-body: #000;
+  --fundo-content: #800000;
+  --fundo-header: 	#6b0f08;
+  --fundo-footer: #a30606;
+  --texto-principal: #fff;
+  --texto-principal-hover: #ccc;
+  --titulo-header: #FFF5EE;
+  --stitulo-header: #d3989d;
+  --color-border: #130101;
+  --corpo-conteudo: #0D0D0D;
+  --texto-conteudo: #FFF5EE;
+  --barra-rolar: #6b0f08;
+  --barra-rolar-claro: #a30606;
+  --texto-link: #fff;
+  --texto-hover-link: #fff5ee;
+  --border-galeria: #363636;
+  --hover-texto: #ccc;
+}
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: var(--fundo-body);
+  color: var(--texto-principal);
+
+}
+
+.container-app {
+  max-width: 95%;
+  margin: auto;
+  background-color: var(--fundo-content);
+  color: var(--texto-principal);
+}
+

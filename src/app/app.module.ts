@@ -15,6 +15,9 @@ import { GaleriaComponentComponent } from './components/galeria-component/galeri
 import { HeaderComponent } from './components/header/header.component';
 import { ImgCaracteresComponent } from './components/img-caracteres/img-caracteres.component';
 import { ShareMenuComponent } from './components/share-menu/share-menu.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -34,7 +37,10 @@ import { ShareMenuComponent } from './components/share-menu/share-menu.component
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
