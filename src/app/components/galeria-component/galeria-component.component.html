@@ -1,1 +1,18 @@
-<p>galeria-component works!</p>
+<section>
+  <span class="titulo">{{ title }} | </span>
+  <span>{{ stitle }}</span>
+  <hr />
+
+  <div class="texto">{{ texto.figurino }}</div>
+  <div *ngFor="let image of images" class="galery">
+    <img
+      [src]="image.url"
+      [alt]="image.caption"
+      class="img-fluid"
+      style="border-radius: 4px"
+    />
+
+    <hr />
+    <p>{{ image.caption }}</p>
+  </div>
+</section>
