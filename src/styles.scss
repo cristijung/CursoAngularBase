@@ -4,7 +4,7 @@
   --fundo-body: #000;
   --fundo-content: #800000;
   --fundo-header: 	#6b0f08;
-  --fundo-footer: #a30606;
+  --fundo-footer: #470703;
   --texto-principal: #fff;
   --texto-principal-hover: #ccc;
   --titulo-header: #FFF5EE;
@@ -35,4 +35,17 @@ body {
   background-color: var(--fundo-content);
   color: var(--texto-principal);
 }
+
+.content {
+  max-width: 96%;
+  margin: auto;
+  padding: 1%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background-color: var(--corpo-conteudo);
+  color: var(--texto-conteudo);
+  box-shadow: 2px 2px 2px 2px rgba(10, 0, 0, 0.2);
+}
+
 
